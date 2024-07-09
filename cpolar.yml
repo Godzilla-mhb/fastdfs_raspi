@@ -1,0 +1,46 @@
+authtoken: NWJmYmRlOGQtMDVmZS00NjU0LTk5NGItNThiOGFlYzBhMWEz
+tunnels:
+  ssh:
+    proto: tcp
+    addr: "22"
+    remote_addr: 1.tcp.hk.cpolar.io:20182
+
+
+  nascloud2:
+    proto: http
+    addr: "7001"
+    subdomain: nascloud
+    region: cn_vip
+
+
+  ffmpeg2:
+    proto: http
+    addr: "9999"
+    subdomain: ffmpeg
+    region: cn_vip
+    # remote_addr: 39924b63.cname.vip.cpolar.top
+   
+
+  nasfront2:
+    proto: http
+    addr: "8000"
+    subdomain: nasfront
+    region: cn_vip
+      # remote_addr: 39924b63.cname.vip.cpolar.top
+      #
+      #
+
+  freeswitch2:
+     proto: http
+     addr: "8443"
+     hostname: "www.nas_front.com"
+      #subdomain: freeswitch
+      #region: cn_vip
+
+  
+
+  images2:
+    proto: http
+    addr: "8080"
+    subdomain: forimages
+    region: cn_vip
